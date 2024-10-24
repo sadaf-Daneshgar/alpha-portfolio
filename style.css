@@ -44,6 +44,20 @@ li {
   position: fixed;
 }
 
+.image {
+  width: 305px;
+  height: 236px;
+}
+
+.cards {
+  width: 22rem;
+}
+
+.card-img {
+  width: 325px;
+  height: 191px;
+}
+
 .massage {
   color: red;
   margin-left: 1rem;
