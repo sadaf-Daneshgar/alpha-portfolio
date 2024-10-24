@@ -59,7 +59,7 @@ This project is a simple website that contains my personal information, my proje
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://sadaf-portfolio.vercel.app/)
+- [Live Demo Link](https://sadaf-daneshgar.github.io/alpha-portfolio/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
