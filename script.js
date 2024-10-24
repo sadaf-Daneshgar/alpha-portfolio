@@ -35,8 +35,7 @@ const projectDetails = [
       'The Recipe app keeps track of all your recipes, ingredients, and inventory. You can add a comment and like each of food recipes.',
     projectLanguages: ['Ruby on Rails', 'React-Redux', 'PostgreSQL', 'CSS'],
     projectLiveLink: 'https://page-to-page.onrender.com/',
-    projectSourceCode:
-      'https://github.com/sadaf-Daneshgar/Page-To-page-Library-Frontend',
+    projectSourceCode: 'https://github.com/sadaf-Daneshgar/recipe_app',
     PorjectLiveSource: '<i class="fa-brands fa-github"></i>',
     ProjectLiveIcons: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
     ProjectLiveText: 'See Live',
@@ -114,9 +113,8 @@ const projectDetails = [
       + 'list of conferences and their information. The user can also '
       + 'search for a specific conference and see the details of it.',
     projectLanguages: ['HTML', 'JAVASript', 'CSS'],
-    projectLiveLink: 'https://page-to-page.onrender.com/',
-    projectSourceCode:
-      'https://github.com/sadaf-Daneshgar/Page-To-page-Library-Frontend',
+    projectLiveLink: 'https://sadaf-daneshgar.github.io/Capstone-Project/',
+    projectSourceCode: 'https://github.com/sadaf-Daneshgar/Capstone-Project',
     PorjectLiveSource: '<i class="fa-brands fa-github"></i>',
     ProjectLiveIcons: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
     ProjectLiveText: 'See Live',
@@ -145,8 +143,8 @@ for (let index = 0; index < projectBtn.length; index += 1) {
             <button type="button" class="btn btn-outline-info mb-2 mt-4">
               ${projectDetails[index].projectLanguages[2]}
             </button> <br/>
-      <a href=${projectDetails[index].projectLiveLink} class="btn btn-primary">${projectDetails[0].ProjectLiveText} ${projectDetails[0].ProjectLiveIcons}</a>
-      <a href=${projectDetails[index].projectSourceCode} class="btn btn-primary">${projectDetails[0].ProjectSourceText} ${projectDetails[0].PorjectLiveSource}</a>
+      <a href=${projectDetails[index].projectLiveLink} class="btn btn-primary" target="_blank">${projectDetails[0].ProjectLiveText} ${projectDetails[0].ProjectLiveIcons}</a>
+      <a href=${projectDetails[index].projectSourceCode} class="btn btn-primary" target="_blank">${projectDetails[0].ProjectSourceText} ${projectDetails[0].PorjectLiveSource}</a>
     </div>
   </div>
 </div>
