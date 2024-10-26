@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+  margin-top: 8rem;
+}
+
+li {
+  list-style: none;
+}
+
+.show-header {
+  display: flex;
+}
+
+.hide-header {
+  display: none;
+}
+
+.detail {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.project-container {
+  top: 0;
+  z-index: 1;
+  bottom: 0;
+  display: flex;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  background-blend-mode: multiply;
+  justify-content: center;
+  position: fixed;
+}
+
+.image {
+  width: 305px;
+  height: 236px;
+}
+
+.cards {
+  width: 22rem;
+}
+
+.card-img {
+  width: 325px;
+  height: 191px;
+}
+
+.massage {
+  color: red;
+  margin-left: 1rem;
+}
+
+.lang_part {
+  gap: 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.sk_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding-top: 12px;
+}
+
+.reg {
+  width: 18px;
+  height: 18px;
+  background-color: #ff6b00;
+  transform: rotate(45deg);
+}
+
+.reg1 {
+  width: 18px;
+  height: 18px;
+  background-color: #ff6b00;
+}
+
+.reg2 {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #ff6b00;
+}
+
+.skill_title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+}
+
+.lang_item {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 42.67px;
+  text-align: center;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
